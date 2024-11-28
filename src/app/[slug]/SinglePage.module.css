@@ -1,0 +1,95 @@
+.contiener{
+
+}
+.title{
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+.infoContiener{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.textContiener{
+    flex: 1;
+}
+.userImageContiener{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.imageContiener{
+    flex: 1;
+    height: 350px;
+    position: relative;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.userName{
+    font-size: 20px;
+    font-weight: 500;
+}
+.avatar{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userTextContiener{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color:var(--softTextColor)
+}
+.content{
+    display: flex;
+    gap: 50px;
+}
+.post{
+  flex:5;
+  margin-top:60px;
+    
+}
+
+.Des p{
+font-size: 18px;
+font-weight: 300;
+margin: 20px 0;
+}
+
+
+@media screen and (max-width:1536px){
+    
+    .title{
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width:1280px){
+    
+    .title{
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    
+.imageContiener{
+    display: none;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    
+.title{
+    font-size: 36px;
+}
+.Des p{
+
+    font-size: 14px;
+}
+    }
